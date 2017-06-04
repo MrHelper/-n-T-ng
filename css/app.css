@@ -18,6 +18,8 @@
     color: #000;
     font-size:larger;
     text-decoration: none;
+    transition: background 0.3s;
+    background: none center top repeat-x;
 }
 .ATlist-menu a:hover {
     background: url(../images/border.png) center bottom no-repeat;
@@ -81,12 +83,15 @@
     color: #4e4e4e;
     font-weight: 600;
     margin:20px;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
 }
 .ATViewMore:hover {
     font-size: large;
     color: #ffffff;
     background-color: rgba(79, 79, 79, 0.7);
     text-decoration: none;
+    border: 2px solid #4e4e4e;
 }
 .ATStore{
     background-image: url(../images/img_11.gif);
@@ -95,4 +100,30 @@
 }
 #main-menu{
 	background:#efefef;
+}
+.ATBtnHT{
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    border: 2px solid #FFF;
+    padding: 13px 31px;
+    font-size: larger;
+}
+.ATBtnHT:hover{
+    background-color: rgba(255,255,255,0.3);
+    border: 2px solid #FFF;
+}
+.text-red{
+	color:red;
+}
+.ATPhone{
+    max-width: 45px;
+    margin: 7px 14px 0 0;
+}
+.btn-subscribe{
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+}
+.btn-subscribe:hover{
+    background-color: #656565;
 }
