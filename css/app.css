@@ -1,3 +1,28 @@
+.ATlist-menu ul{
+	display:table;
+	border-collapse:collapse;
+	width:100%;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.ATlist-menu li {
+	display:table-cell;
+	width:1%;
+	vertical-align:middle;
+	text-align:center;
+}
+.ATlist-menu a {
+    display: block;
+    padding: 15px 10px;
+    color: #000;
+    font-size:larger;
+    text-decoration: none;
+}
+.ATlist-menu a:hover {
+    background: url(../images/border.png) center bottom no-repeat;
+}
+
 .nav-main ul {
 	display:table;
 	border-collapse:collapse;
@@ -24,14 +49,14 @@
 .nav-main a:focus {
 	outline:none;
 	color:#000;
-	background:#efefef;
+	background:#e4e4e4;
 }
 .nav-main.active li:hover {
 	cursor:pointer;
 }
 .nav-main.active li:hover,
 .nav-main.active li.focus {
-	background:#efefef;
+	background:#e4e4e4;
 }
 .ATmenuitem{
 	max-height:100px;
@@ -57,8 +82,17 @@
     font-weight: 600;
     margin:20px;
 }
+.ATViewMore:hover {
+    font-size: large;
+    color: #ffffff;
+    background-color: rgba(79, 79, 79, 0.7);
+    text-decoration: none;
+}
 .ATStore{
     background-image: url(../images/img_11.gif);
     height: 250px;
     background-position-y: center;
+}
+#main-menu{
+	background:#efefef;
 }
