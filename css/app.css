@@ -39,12 +39,14 @@ body{
 	list-style:none;
 }
 .nav-main li {
-	display:table-cell;
-	width:1%;
-	border:1px solid #ddd;
-	background:#efefef;
-	vertical-align:middle;
-	text-align:center;
+    display: table-cell;
+    width: 1%;
+    border: 1px solid #ddd;
+    background: #efefef;
+    vertical-align: middle;
+    text-align: center;
+    border-top: none;
+    border-bottom: none;
 }
 .nav-main a {
 	display:block;
@@ -256,4 +258,7 @@ a{
 }
 .carousel-indicators li {
     border: 1px solid #4e4e4d;
+}
+#footerMenu li a {
+    text-transform: capitalize;
 }
