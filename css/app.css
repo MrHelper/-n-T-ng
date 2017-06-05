@@ -74,7 +74,7 @@ body{
 .ATServices{
     margin: 20px 0;
     border: 2px solid #373737;
-    padding: 20px 0px 25px 20px;
+    padding: 30px 10px 25px 35px;
     text-align: center;
 }
 .ATServices img{
@@ -82,11 +82,10 @@ body{
     width:auto;
 }
 .ATViewMore{
-    border: 2px solid #4e4e4e;
+    border: 1px solid #4e4e4e;
     padding: 14px 34px;
     font-size: large;
     color: #4e4e4e;
-    font-weight: 600;
     margin:20px;
     text-transform: uppercase;
     transition: background-color 0.3s;
@@ -97,7 +96,7 @@ body{
     color: #ffffff;
     background-color: rgba(79, 79, 79, 0.7);
     text-decoration: none;
-    border: 2px solid #4e4e4e;
+    border: 1px solid #4e4e4e;
 }
 .ATStore{
     background-image: url(../images/img_11.gif);
@@ -149,6 +148,9 @@ hr.withicon:after {
 h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
 }
+h2{
+    font-size: 50px;
+}
 .btn-slide {
     border: 2px solid #a2a2a2;
     height: 45px;
@@ -157,7 +159,7 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
 }
 .text-price{
-	color: #e07171;
+	color: #cb1111;
 }
 .ATProduct:hover {
     border: 1px solid #333;
@@ -224,4 +226,24 @@ input[name='search'] {
     background-image: url(../images/symbol_03.png);
     background-position: right;
     background-repeat: no-repeat;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #333;
+    text-decoration: none;
+}
+.badge{
+    background-color: #cb1111;
+}
+a{
+    cursor: pointer;
+}
+.HeadingWithIcon:before {
+    content: url('../images/symbol_10_l.png');
+}
+.HeadingWithIcon:after {
+    content: url('../images/symbol_10_r.png');
 }
