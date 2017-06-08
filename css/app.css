@@ -263,18 +263,18 @@ a{
     text-transform: capitalize;
 }
 #Callicon{
-    font-size: 50px;
+    font-size: 40px;
     border: 2px solid #727272;
-    padding: 10px 16px;
+    padding: 16px 16px;
     border-radius: 100px;
     position: fixed;
     bottom: 25px;
     left: 25px;
-	color:#727272;
-	opacity: 0.5;
-	-webkit-transition: border 1s, color 1s;
-	-moz-transition: border 1s, color 1s;
-	transition: border 1s, color 1s;
+    color: #727272;
+    opacity: 0.5;
+    -webkit-transition: border 1s, color 1s;
+    -moz-transition: border 1s, color 1s;
+    transition: border 1s, color 1s;
 }
 
 
