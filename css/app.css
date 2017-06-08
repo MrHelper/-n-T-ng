@@ -284,8 +284,6 @@ a{
 	-moz-transform: scale(0.93);
 	-ms-transform: scale(0.93);
 	transform: scale(0.93);
-	border: 2px solid #333;
-	color:#333;
 	opacity: 1;
 	-webkit-transition: border 1s, color 1s;
 	-moz-transition: border 1s, color 1s;
