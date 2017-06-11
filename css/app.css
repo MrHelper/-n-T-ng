@@ -147,6 +147,19 @@ hr.withicon:after {
       padding: 0 20px;
       background: #fff
 }
+hr.smallicon {
+    border-top: solid #4e4e4e 1px;
+    margin: 30px 0px 10px 0px;
+}
+hr.smallicon:after {
+      content: url( '../images/small-hr.png' );
+      left: 50%;
+      position: absolute;
+      transform: translateY(-50%) translateX(-50%);
+      padding: 0 20px;
+      background: #fff
+}
+
 h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
 }
