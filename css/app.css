@@ -86,7 +86,7 @@ body {
 }
 
 .ATServices {
-    margin: 20px 0;
+    margin: 28px 0;
     border: 2px solid #373737;
     padding: 30px 10px 25px 35px;
     text-align: center;
@@ -102,7 +102,7 @@ body {
     padding: 14px 34px;
     font-size: large;
     color: #4e4e4e;
-    margin: 20px;
+    margin: 20px 0px 0px 0px;
     text-transform: uppercase;
     transition: background-color 0.3s;
     transition: color 0.3s;
@@ -137,6 +137,16 @@ body {
 
 .ATBtnHT:hover {
     background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid #FFF;
+}
+
+.ATBtnHT:focus, .ATBtnHT:active{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid #FFF;
+}
+
+.ATBtnHT:active:hover,.ATBtnHT:active:focus {
+    background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid #FFF;
 }
 
@@ -175,7 +185,7 @@ hr.withicon:after {
 
 hr.smallicon {
     border-top: solid #4e4e4e 1px;
-    margin: 30px 0px 10px 0px;
+    margin: 35px 0px 5px 0px;
 }
 
 hr.smallicon:after {
@@ -250,7 +260,7 @@ h3 {
 }
 
 .owl-carousel {
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 30px;
 }
 
@@ -571,7 +581,7 @@ a {
 
 .ATNB .owl-next {
     position: absolute;
-    top: 180px;
+    top: 125px;
     font-size: 30px;
     color: #4e4e4e;
     border: 1px solid #4e4e4e;
@@ -596,4 +606,51 @@ a {
     right: 210px;
     font-weight: 100;
     text-shadow: none;
+}
+
+.zmargin{
+  margin: 0px;
+}
+.zpadding{
+  padding:0px;
+}
+.bag{
+  margin: 0px -10px;
+}
+
+span.badge.text-danger {
+    position: absolute;
+    top: 45px;
+}
+
+.ATBST{
+  max-height: 450px; overflow: hidden;
+}
+
+.ATBST2{
+  padding-bottom:30px; width:100%;
+}
+.width100{
+  width:100%; height: auto;
+}
+.devline{
+  margin: 40px 0px 30px 0px;
+}
+
+.tmargin20{
+  margin-top:20px
+}
+
+.tmargin40{
+  margin-top:40px;
+}
+
+.HeadKHTT{
+  margin: 20px 0px 40px
+}
+
+.videoIcon{
+  padding-top: 13px;
+  margin-right: 20px; 
+  width: 30px;
 }
