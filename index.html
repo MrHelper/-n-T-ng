@@ -31,13 +31,13 @@
         <td style="width: 165px;"><a href="#"><img src="images\symbol_02.png" alt="" class="pull-left ATPhone">
           <h6><strong>Hệ thống cửa hàng</strong></h6>
         </a></td>
-        <td><a href="#"><img src="images/symbol_18.png" alt="" style="margin: 0px -10px;"><span class="badge text-danger" style="position: absolute;top: 23px;">3</span></a></td>
+        <td><a href="#"><img src="images/symbol_18.png" alt="" style="margin: 0px -10px;"><span class="badge text-danger" style="position: absolute;top: 45px;">3</span></a></td>
       </tr>
     </table>
   </div>
   <div class="nav-main" role="navigation" id="main-menu">
     <div class="container">
-      <ul>
+      <ul id="topMenu">
         <li>
           <a href="/"><img src="images/menu_01.png" alt="" class="ATmenuitem"></a>
         </li>
@@ -230,7 +230,7 @@
         <h2 class="HeadingWithIcon">Sản phẩm bạn <strong>quan tâm</strong></h2>
       </div>
       <div class="col-md-12 text-center">
-        <img src="images/symbol_07.png" alt="" style="margin: 20px 0px 30px 0px;">
+        <img src="images/symbol_07.png" alt="" style="margin: 10px 0px 10px 0px;">
       </div>
       <div class="col-md-12 ">
         <div class="ATlist-menu " role="navigation ">
@@ -304,6 +304,9 @@
       </div>
     </div>
     <div class="row ">
+      <div class="col-md-12 text-center">
+        <img src="images/symbol_07.png" alt="" style="margin: 10px 0px 10px 0px;">
+      </div>
       <div class="col-md-12 text-center">
         <h2 class="HeadingWithIcon" style="margin: 20px 0px 40px;">Khách hàng <strong>thân thiết</strong></h2>
         <hr class="withicon ">
@@ -437,7 +440,7 @@
         <div class="container ">
             <div class="row ">
                 <div class="col-md-12 ">
-                    <div class="nav-main " role="navigation " style="font-size: small; ">
+                    <div class="nav-main smallfont" role="navigation ">
                         <ul id="footerMenu">
                             <li><a href="/ ">Thông tin thanh toán</a></li>
                             <li><a href="/ ">Vận chuyển và giao hàng</a></li>
@@ -455,15 +458,21 @@
     <footer style="background-color:#dedede ">
         <div class="container ">
             <div class="row ">
-                <div class="col-md-12 ">
+                <div class="col-md-8 ">
                     <h6>Copyrights © 2017 - Thời Trang Ấn Tượng - Đại Diện: Nguyễn Văn Nguyên</h6>
                     <h6>Địa chỉ: 81 Trần Quang Diệu, P14, Q3 - ĐT:0164872674 - MST: 8070760538 - Email: khoinguyennvn@gmail.com</h6>
+                </div>
+                <div class="col-md-4">
+                  <img src="images\dathongbao.png" alt="" class="pull-right tmargin5">
                 </div>
             </div>
         </div>
     </footer>
     <div id="CallNow" class="hi-icon-effect-8">
     	<i class="fa fa-comments-o hi-icon faa-float animated" id="Callicon"></i>
+    </div>
+    <div>
+      <i class="fa fa-angle-double-up" id="ToTop" style="display:none;"></i>
     </div>
     <script type="text/javascript " src="js/jquery-3.1.1.min.js "></script>
     <script type="text/javascript " src="js/bootstrap.min.js "></script>
@@ -507,6 +516,19 @@
             });
             $(this).find('a').addClass('active');
         });
+
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 100) {
+                $('#ToTop').fadeIn('slow');
+            } else {
+                $('#ToTop').fadeOut('slow');
+            }
+        });
+        $('#ToTop').click(function(){
+            $("html, body").animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+
     });
     </script>
 </body>
