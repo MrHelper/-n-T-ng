@@ -140,12 +140,14 @@ body {
     border: 2px solid #FFF;
 }
 
-.ATBtnHT:focus, .ATBtnHT:active{
+.ATBtnHT:focus,
+.ATBtnHT:active {
     background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid #FFF;
 }
 
-.ATBtnHT:active:hover,.ATBtnHT:active:focus {
+.ATBtnHT:active:hover,
+.ATBtnHT:active:focus {
     background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid #FFF;
 }
@@ -608,14 +610,16 @@ a {
     text-shadow: none;
 }
 
-.zmargin{
-  margin: 0px;
+.zmargin {
+    margin: 0px;
 }
-.zpadding{
-  padding:0px;
+
+.zpadding {
+    padding: 0px;
 }
-.bag{
-  margin: 0px -10px;
+
+.bag {
+    margin: 0px -10px;
 }
 
 span.badge.text-danger {
@@ -623,34 +627,70 @@ span.badge.text-danger {
     top: 45px;
 }
 
-.ATBST{
-  max-height: 450px; overflow: hidden;
+.ATBST {
+    max-height: 450px;
+    overflow: hidden;
 }
 
-.ATBST2{
-  padding-bottom:30px; width:100%;
-}
-.width100{
-  width:100%; height: auto;
-}
-.devline{
-  margin: 40px 0px 30px 0px;
+.ATBST2 {
+    padding-bottom: 30px;
+    width: 100%;
 }
 
-.tmargin20{
-  margin-top:20px
+.width100 {
+    width: 100%;
+    height: auto;
 }
 
-.tmargin40{
-  margin-top:40px;
+.devline {
+    margin: 40px 0px 30px 0px;
 }
 
-.HeadKHTT{
-  margin: 20px 0px 40px
+.tmargin20 {
+    margin-top: 20px
 }
 
-.videoIcon{
-  padding-top: 13px;
-  margin-right: 20px; 
-  width: 30px;
+.tmargin40 {
+    margin-top: 40px;
+}
+
+.HeadKHTT {
+    margin: 20px 0px 40px
+}
+
+.videoIcon {
+    padding-top: 13px;
+    margin-right: 20px;
+    width: 30px;
+}
+
+.KMLine {
+    position: absolute;
+    top: 80px;
+    left: 120px;
+    font-size: 25px;
+}
+
+.KM2Line {
+    position: absolute;
+    top: 55px;
+    left: 280px;
+    font-size: 25px;
+}
+
+.YearLine {
+    position: absolute;
+    top: 110px;
+    left: 362px;
+    font-size: 25px;
+    color: #cb1313;
+    font-weight: bolder;
+}
+
+.voucher {
+    position: absolute;
+    top: 85px;
+    left: 212px;
+    font-size: 25px;
+    font-weight: bolder;
 }
