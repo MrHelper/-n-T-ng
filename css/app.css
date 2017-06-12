@@ -102,7 +102,7 @@ body {
     padding: 14px 34px;
     font-size: large;
     color: #4e4e4e;
-    margin: 20px 0px 0px 0px;
+    margin: 0px;
     text-transform: uppercase;
     transition: background-color 0.3s;
     transition: color 0.3s;
@@ -187,7 +187,7 @@ hr.withicon:after {
 
 hr.smallicon {
     border-top: solid #4e4e4e 1px;
-    margin: 35px 0px 5px 0px;
+    margin: 20px 0px 5px 0px;
 }
 
 hr.smallicon:after {
@@ -209,7 +209,7 @@ h6 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 h3 {
@@ -262,8 +262,8 @@ h3 {
 }
 
 .owl-carousel {
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .ATNoiBat {
@@ -328,7 +328,10 @@ a:hover {
 a {
     cursor: pointer;
 }
-
+.HeadingWithIcon{
+  margin-top:20px;
+  margin-bottom:0px;
+}
 .HeadingWithIcon:before {
     content: url('../images/symbol_10_l.png');
 }
@@ -537,7 +540,7 @@ a {
 }
 
 .new-event {
-    padding-top: 13px;
+    padding-top: 7px;
     margin-right: 20px;
     width: 145px;
 }
@@ -643,7 +646,7 @@ span.badge.text-danger {
 }
 
 .devline {
-    margin: 40px 0px 30px 0px;
+    margin: 20px 0px;
 }
 
 .tmargin20 {
@@ -655,11 +658,12 @@ span.badge.text-danger {
 }
 
 .HeadKHTT {
-    margin: 20px 0px 40px
+    margin: 0px;
+    margin-bottom: 20px;
 }
 
 .videoIcon {
-    padding-top: 13px;
+    padding-top: 8px;
     margin-right: 20px;
     width: 30px;
 }
@@ -676,13 +680,14 @@ span.badge.text-danger {
     top: 55px;
     left: 280px;
     font-size: 25px;
+    color: #fff
 }
 
 .YearLine {
     position: absolute;
-    top: 110px;
-    left: 362px;
-    font-size: 25px;
+    top: 115px;
+    left: 356px;
+    font-size: 28px;
     color: #cb1313;
     font-weight: bolder;
 }
@@ -693,4 +698,11 @@ span.badge.text-danger {
     left: 212px;
     font-size: 25px;
     font-weight: bolder;
+    color:#fff;
+}
+.HeadTTSK{
+  margin: 20px 0px 20px;
+}
+.Slider4Item {
+    margin-bottom: 15px;
 }
