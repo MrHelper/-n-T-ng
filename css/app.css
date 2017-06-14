@@ -455,7 +455,9 @@ a {
 .tmargin5 {
     margin-top: 5px;
 }
-
+.lpadding40{
+  padding-left:40px;
+}
 #ToTop {
     position: fixed;
     right: 0px;
