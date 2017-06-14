@@ -1107,7 +1107,7 @@ a.KTItem {
     border: 1px solid black;
     margin: 5px;
     display: inline-grid;
-    padding: 7px 10px !important;
+    padding: 5px 8px !important;
 }
 
 a.KTItem.Active{
@@ -1116,8 +1116,8 @@ a.KTItem.Active{
 }
 
 a.MSItem {
-    padding: 13px !important;
-    margin: 6px;
+    padding: 11px !important;
+    margin: 4px;
     border: 1px solid #8a8a8a;
     display: inline-grid;
 }
