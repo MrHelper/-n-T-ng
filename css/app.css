@@ -670,22 +670,22 @@ span.badge.text-danger {
 
 .KMLine {
     position: absolute;
-    top: 80px;
+    top: calc(20% + 30px);
     left: 120px;
     font-size: 25px;
 }
 
 .KM2Line {
     position: absolute;
-    top: 55px;
+    top: 20%;
     left: 280px;
     font-size: 25px;
-    color: #fff
+    color: #fff;
 }
 
 .YearLine {
     position: absolute;
-    top: 115px;
+    top: calc(20% + 60px);
     left: 356px;
     font-size: 28px;
     color: #cb1313;
@@ -694,11 +694,11 @@ span.badge.text-danger {
 
 .voucher {
     position: absolute;
-    top: 85px;
+    top: calc(20% + 30px);
     left: 212px;
     font-size: 25px;
     font-weight: bolder;
-    color:#fff;
+    color: #fff;
 }
 .HeadTTSK{
   margin: 20px 0px 20px;
