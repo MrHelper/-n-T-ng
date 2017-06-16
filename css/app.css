@@ -1152,6 +1152,53 @@ h3.CustName {
 ul.BLMS,ul.BLKT {
     padding: 0px;
 }
+<<<<<<< HEAD
+.filterTitle{
+  font-weight: bolder !important;
+  padding-left: 10px;
+}
+.slide-right{
+  position: absolute;
+  width: 250px;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+.slide-left{
+  margin-right: 270px;
+}
+.bold{
+  font-weight: bold;
+}
+.ShopAdress{
+  margin-left:20px;
+}
+.ChiNhanh::before {
+    content: "● ";
+}
+p.ChiNhanh.bold {
+    margin-left: 8px;
+    margin-bottom:0px;
+}
+.DCChiNhanh{
+  margin-top:10px;
+}
+.CTPhoneRight{
+  margin-top: 0px;
+  margin-left: 28px;
+  margin-right: 0px;
+}
+.SmallATServices {
+    margin: 10px 0;
+    border: 1px solid #373737;
+    padding: 5px 10px;
+    text-align: center;
+}
+.SmallATServices img {
+    max-height: 30px;
+    width: auto;
+    margin-top: 14px;
+=======
 .bold{
     font-weight: bolder !important;
 }
@@ -1161,4 +1208,5 @@ ul.BLMS,ul.BLKT {
 }
 a.sldlv0 {
     font-weight: bold !important;
+>>>>>>> c39a3f077668c34a08b1a817bd8ce4d4dbc23c3d
 }
