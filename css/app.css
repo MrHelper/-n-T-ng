@@ -224,6 +224,16 @@ h3 {
     text-transform: uppercase;
 }
 
+@media (min-width:992px) {
+    .btn-slide {
+        border: 2px solid #a2a2a2;
+        height: 45px;
+        margin: 0 5px;
+        padding: 0 10px;
+        text-transform: uppercase;
+    }
+}
+
 .text-price {
     color: #cb1111;
 }
@@ -1152,7 +1162,6 @@ h3.CustName {
 ul.BLMS,ul.BLKT {
     padding: 0px;
 }
-<<<<<<< HEAD
 .filterTitle{
   font-weight: bolder !important;
   padding-left: 10px;
@@ -1198,15 +1207,16 @@ p.ChiNhanh.bold {
     max-height: 30px;
     width: auto;
     margin-top: 14px;
-=======
-.bold{
-    font-weight: bolder !important;
 }
-.headCatelog{
-    border-bottom: 2px solid black;
-    padding: 10px;
+.panel-body, .panel-heading {
+    padding: 15px;
+    border: 1px solid #373737;
 }
-a.sldlv0 {
-    font-weight: bold !important;
->>>>>>> c39a3f077668c34a08b1a817bd8ce4d4dbc23c3d
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #373737;
+    border-color: #373737;
+}
+.panel{
+    box-shadow: none;
 }
