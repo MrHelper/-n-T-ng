@@ -1624,3 +1624,7 @@ fieldset[disabled] .btn-dark.active {
 .hot-news h3{
     margin: 15px;
 }
+.deleteIcon{
+    width: 30px;
+    height: auto;
+}
