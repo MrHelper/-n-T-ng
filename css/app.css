@@ -649,6 +649,10 @@ a {
     padding: 0px;
 }
 
+.lzpadding{
+    padding-left: 0px;
+}
+
 .bag {
     margin: 0px -10px;
 }
@@ -1513,4 +1517,110 @@ fieldset[disabled] .btn-dark.active {
     margin-right: auto;
     display: block;
     padding-top: 40%
+}
+.hot-news{
+    display: inline-block;
+    padding: 0px 34px;
+    background-color: black;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+.news-info .title{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.news-info .description{
+    text-align: justify;
+}
+.news-events .posts{
+    margin-top: 65px;
+}
+.posts .post{
+    position: relative;
+    margin-bottom: 50px;
+}
+.posts .post .post-info{
+    position: absolute;
+    top:0;
+    left: 180px;
+}
+.posts .post .post-info .title{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.posts .post .post-info .description, .event .description{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+}
+.video h3{
+    display: inline-block;
+}
+.video .first-video{
+    margin:24px 0;
+}
+.video .info{
+    margin-bottom: 25px;
+}
+.video .info .description{
+    font-size: 16px;
+    line-height: 22px;
+}
+.video .date,.video .comment{
+    display: inline-block;
+    margin-left: 20px;
+}
+.title{
+    padding: 0 15px;
+}
+
+.title-underline{
+    width: 184px;
+    height: 3px;
+    background-color: #a03441;
+}
+.title h4{
+    margin-left: 15px;
+}
+.title hr, .link hr{
+    margin-top: 0;
+    border-top: 1px solid #000;
+}
+.event .title{
+    margin-top: 20px;
+}
+.fb-embed{
+    margin-top: 40px;
+}
+.news-details h2{
+    font-size: 28px;
+}
+.date-time-info .date,.date-time-info .time{
+    display: inline-block;
+    margin-right: 25px;
+    color: #4e4e4e;
+}
+.news-details .tag img{
+    margin-right: 20px;
+}
+.other-news .title{
+    padding:0;
+    margin-top: 24px;
+}
+.other-news .nav{
+    margin-left: 30px;
+}
+.other-news .nav a{
+    font-size: 18px;
+}
+.other-news .nav a:hover{
+    background-color: transparent;
+}
+.hot-news h3{
+    margin: 15px;
 }
