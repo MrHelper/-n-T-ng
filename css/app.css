@@ -461,7 +461,9 @@ a {
         opacity: 0;
     }
 }
-
+.padding10{
+    padding:10px;
+}
 .tmargin5 {
     margin-top: 5px;
 }
@@ -1379,4 +1381,14 @@ fieldset[disabled] .btn-dark.active {
 .btn-dark .badge { 
   color: #000000; 
   background-color: #ffffff; 
+}
+
+.MarginSP{
+        margin-right: 0;
+    }
+
+@media (min-width: 920px) {
+    .MarginSP{
+        margin-right: 270px;
+    }
 }
