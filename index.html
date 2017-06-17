@@ -682,7 +682,25 @@
             autoplayHoverPause: true,
             lazyLoad:true,
             dots: false,
-            navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
+            navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false,
+                    loop:true
+                },
+                600:{
+                    items:2,
+                    nav:false,
+                    loop:true
+                },
+                1000:{
+                    items:4,
+                    nav:true,
+                    loop:true
+                }
+            }
         });
         $(".ATCustomer ").owlCarousel({
             items: 3,
@@ -694,7 +712,25 @@
             autoplayHoverPause: true,
             lazyLoad:true,
             dots: false,
-            navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
+            navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false,
+                    loop:true
+                },
+                600:{
+                    items:1,
+                    nav:false,
+                    loop:true
+                },
+                1000:{
+                    items:2,
+                    nav:true,
+                    loop:true
+                }
+            }
         });
         $(".ATNB ").owlCarousel({
             items: 3,
@@ -706,7 +742,25 @@
             autoplayHoverPause: true,
             lazyLoad:true,
             dots: false,
-            navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"]
+            navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
+            responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:false,
+                    loop:true
+                },
+                600:{
+                    items:2,
+                    nav:false,
+                    loop:true
+                },
+                1000:{
+                    items:4,
+                    nav:true,
+                    loop:true
+                }
+            }
         });
         $('#ProctMList').on('click', 'li', function() {
             $('#ProctMList li a').each(function() {
