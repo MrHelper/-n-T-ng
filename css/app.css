@@ -643,7 +643,9 @@ a {
     font-weight: 100;
     text-shadow: none;
 }
-
+.margin10{
+    margin:10px;
+}
 .zmargin {
     margin: 0px !important;
 }

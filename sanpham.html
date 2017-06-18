@@ -421,7 +421,7 @@
                     <div class="side-body">
                         <p class="bold headCatelog">ÁO NAM</p>
                         <div class="row">
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_01.gif" alt="">
                                     <span class="discount">-30%</span>
@@ -437,7 +437,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_02.gif" alt="">
                                     <span class="sphot">HOT</span>
@@ -453,7 +453,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_03.gif" alt="">
                                     <div class="text-center">
@@ -468,7 +468,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_01.gif" alt="">
                                     <span class="discount">-30%</span>
@@ -484,7 +484,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_02.gif" alt="">
                                     <span class="sphot">HOT</span>
@@ -500,7 +500,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_03.gif" alt="">
                                     <div class="text-center">
@@ -515,7 +515,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_01.gif" alt="">
                                     <span class="discount">-30%</span>
@@ -531,7 +531,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_02.gif" alt="">
                                     <span class="sphot">HOT</span>
@@ -547,7 +547,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_03.gif" alt="">
                                     <div class="text-center">
@@ -562,7 +562,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_01.gif" alt="">
                                     <span class="discount">-30%</span>
@@ -578,7 +578,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_02.gif" alt="">
                                     <span class="sphot">HOT</span>
@@ -594,7 +594,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_03.gif" alt="">
                                     <div class="text-center">
@@ -780,6 +780,24 @@
             autoplayHoverPause: true,
             lazyLoad: true,
             dots: false,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 2,
+                    nav: false,
+                    loop: true
+                },
+                600: {
+                    items: 3,
+                    nav: false,
+                    loop: true
+                },
+                1000: {
+                    items: 4,
+                    nav: false,
+                    loop: true
+                }
+            }
         });
 
         $(window).scroll(function() {

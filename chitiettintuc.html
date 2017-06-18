@@ -315,7 +315,7 @@
                         <var>Ấn tượng, fashion, color</var>
                     </div>
                 </div>
-                <div class="other-news">
+                <div class="other-news bmargin20">
                     <div class="title text-left">
                         <h4><strong>TIN TỨC LIÊN QUAN</strong></h4>
                         <div class="title-underline">
@@ -367,9 +367,15 @@
                     <img src="images/event-img.jpg" alt="">
                     <h4 class="title"><strong>LÀM THẾ NÀO ĐỂ PHỐI ĐỒ?</strong></h4>
                     <p class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis saranghamnida dbsk oat pellentesque eunatoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div class="fb-embed">
-                    <img src="images/fb-embed.jpg" alt="">
+                    <img src="http://placehold.it/400x800" alt="" class="width100">
                 </div>
             </div>
         </div>
@@ -728,7 +734,25 @@
             autoplayHoverPause: true,
             lazyLoad: true,
             dots: false,
-            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                    loop: true
+                },
+                600: {
+                    items: 2,
+                    nav: false,
+                    loop: true
+                },
+                1000: {
+                    items: 4,
+                    nav: true,
+                    loop: true
+                }
+            }
         });
         $(".ATCustomer ").owlCarousel({
             items: 3,
@@ -740,7 +764,25 @@
             autoplayHoverPause: true,
             lazyLoad: true,
             dots: false,
-            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                    loop: true
+                },
+                600: {
+                    items: 2,
+                    nav: false,
+                    loop: true
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: true
+                }
+            }
         });
         $(".ATNB ").owlCarousel({
             items: 3,
@@ -752,7 +794,25 @@
             autoplayHoverPause: true,
             lazyLoad: true,
             dots: false,
-            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false,
+                    loop: true
+                },
+                600: {
+                    items: 2,
+                    nav: false,
+                    loop: true
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: true
+                }
+            }
         });
         $('#ProctMList').on('click', 'li', function() {
             $('#ProctMList li a').each(function() {
