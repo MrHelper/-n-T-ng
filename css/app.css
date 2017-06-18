@@ -45,7 +45,6 @@ body {
 
 .nav-main li {
     display: table-cell;
-    width: 1%;
     background: #efefef;
     vertical-align: middle;
     text-align: center;
@@ -1174,12 +1173,12 @@ span.badge.text-danger {
     border: none;
 }
 
-.divider {
+hr.divider {
     border-top: solid #4e4e4e 1px;
     margin: 40px 0px;
 }
 
-.divider:after {
+hr.divider:after {
     content: url('../images/divider.png');
     left: 50%;
     position: absolute;
@@ -1585,7 +1584,7 @@ fieldset[disabled] .btn-dark.active {
 .title-underline{
     width: 184px;
     height: 3px;
-    background-color: #a03441;
+    background-color: #f3565d;
 }
 .title h4{
     margin-left: 15px;
@@ -1675,4 +1674,72 @@ fieldset[disabled] .btn-dark.active {
     width:100%;
     height: auto;
     margin-bottom:30px;
+}
+/*Mega menu*/
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  color: #222;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #000;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+.dropdown p{
+    margin:0px;
+}
+.MegaMenu{
+    width: 100%;
+}
+.MegaMenu li{
+    width:14%;
+}
+.MegaMenu li p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.MegaMenu li.dropdown {
+    background-image: url('../images/border-tmenu.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.MegaMenu li.dropdown:hover {
+    background-image: url('../images/border-tmenu.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.MegaMenu li.dropdown:last-child {
+    background: none;
+}
+.nav-background{
+    background-color: #f8f8f8;
+}
+.navbar-default{
+    margin-bottom:0px;
+    border:none;
 }
