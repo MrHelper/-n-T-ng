@@ -469,7 +469,9 @@ a {
 .tmargin5 {
     margin-top: 5px;
 }
-
+.tmargin10 {
+    margin-top: 10px;
+}
 .tmargin20 {
     margin-top: 20px;
 }
@@ -640,7 +642,7 @@ a {
 }
 
 .zmargin {
-    margin: 0px;
+    margin: 0px !important;
 }
 
 .bmargin20{
