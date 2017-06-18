@@ -691,9 +691,11 @@
         </div>
         <div class="row ">
             <div class="col-md-12 text-center zpadding">
-                <div class="ATStore ">
-                    <h2 style="padding-top:80px; color:#fff ">Hệ thống cửa hàng trên toàn quốc</h2>
-                    <button type="button " class="btn btn-primary ATBtnHT ">Xem chi tiết</button>
+                <div class="ATStore tmargin20">
+                    <div class="ATStoreText">
+                        <h2>Hệ thống cửa hàng trên toàn quốc</h2>
+                        <button type="button " class="btn btn-primary ATBtnHT ">Xem chi tiết</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -876,6 +878,16 @@
             }, 600);
             return false;
         });
+        $(".dropdown").hover(            
+            function() {
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
+                $(this).toggleClass('open');        
+            },
+            function() {
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
+                $(this).toggleClass('open');       
+            }
+        );
     });
     </script>
 </body>
