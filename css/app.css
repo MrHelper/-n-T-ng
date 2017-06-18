@@ -149,7 +149,9 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
     border: 2px solid #FFF;
 }
-
+hr {
+    border-top: 1px solid #cccccc;
+}
 .text-red {
     color: red;
 }
@@ -1755,4 +1757,22 @@ fieldset[disabled] .btn-dark.active {
 }
 .border-none{
     border:none !important;
+}
+.InfoLine{
+    font-size:25px; 
+    margin-right: 60%;
+    text-align: right;
+}
+.text-white{
+    color:#fff;
+}
+.InfoLineBG1 {
+    background-image: url(../images/img_06.gif);
+    background-position-y: center;
+    background-repeat: no-repeat;
+}
+.InfoLineBG2 {
+    background-image: url(../images/img_07.gif);
+    background-position-y: center;
+    background-repeat: no-repeat;
 }
