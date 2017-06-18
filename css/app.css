@@ -118,7 +118,6 @@ body {
 
 .ATStore {
     background-image: url(../images/img_11.gif);
-    height: 250px;
     background-position-y: center;
 }
 
@@ -643,6 +642,10 @@ a {
 
 .zmargin {
     margin: 0px;
+}
+
+.bmargin20{
+    margin-bottom:20px;
 }
 
 .zpadding {
@@ -1627,4 +1630,49 @@ fieldset[disabled] .btn-dark.active {
 .deleteIcon{
     width: 30px;
     height: auto;
+}
+.ATXuHuong{
+    border: 1px solid black;
+    padding:20px;
+}
+.text-up{
+    text-transform: uppercase;
+}
+.LBShowUp img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.ATStoreText{
+    padding: 60px 0px;
+}
+.ATStoreText h2{
+    color:#fff;
+}
+.ATTTShop{
+    background-color:#000;
+    color:#fff;
+    padding:15px;
+}
+#PNoiBat .panel-body {
+    padding: 0px;
+}
+#PNoiBat .panel-body img{
+    width:100%;
+    height:auto;
+}
+
+#PNoiBat .panel-body .ATProduct {
+    margin: 10px;
+    border: 1px solid #fff;
+    font-weight: bolder;
+    padding:0px;
+}
+.text-italic{
+    font-style: italic;
+}
+.HinhAnhCH img{
+    width:100%;
+    height: auto;
+    margin-bottom:30px;
 }
