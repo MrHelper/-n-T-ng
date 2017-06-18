@@ -45,7 +45,7 @@
         </table>
     </div>
     <div class="container-fluid nav-background">
-        <nav class="navbar navbar-default container zpadding">
+        <nav class="navbar navbar-default container zpadding" id="TopMenu">
             <div class="container">
                 <div class="navbar-header">
                     <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
@@ -470,7 +470,7 @@
             }, 600);
             return false;
         });
-        $(".dropdown").hover(            
+        $("#TopMenu .dropdown").hover(            
             function() {
                 $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
                 $(this).toggleClass('open');        

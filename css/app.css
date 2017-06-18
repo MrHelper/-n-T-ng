@@ -821,7 +821,7 @@ span.badge.text-danger {
 .side-menu .navbar-nav li {
     display: block;
     width: 100%;
-    border-bottom: 1px solid #e7e7e7;
+    border-bottom: 1px solid #000;
 }
 
 .side-menu .navbar-nav li a {
@@ -1304,7 +1304,9 @@ p.ChiNhanh.bold {
     padding: 15px;
     border: 1px solid #373737;
 }
-
+.panel-collapse .panel-body{
+    border:none;
+} 
 .panel-default>.panel-heading {
     color: #fff;
     background-color: #373737;
@@ -1744,4 +1746,11 @@ fieldset[disabled] .btn-dark.active {
 .navbar-default{
     margin-bottom:0px;
     border:none;
+}
+.licd{
+    border:none !important; 
+    padding:30px 0px;
+}
+.border-none{
+    border:none !important;
 }
