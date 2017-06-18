@@ -269,6 +269,7 @@ h3 {
 .ATCust {
     padding: 15px;
     border: 1px solid rgba(102, 74, 74, 0.3);
+    display: flow-root;
 }
 
 .owl-carousel {
@@ -1721,9 +1722,6 @@ fieldset[disabled] .btn-dark.active {
 .MegaMenu{
     width: 100%;
 }
-.MegaMenu li{
-    width:14%;
-}
 .MegaMenu li p{
     text-transform: uppercase;
     font-weight: bold;
@@ -1733,6 +1731,7 @@ fieldset[disabled] .btn-dark.active {
     background-image: url('../images/border-tmenu.png');
     background-position: right;
     background-repeat: no-repeat;
+    width:14%;
 }
 
 .MegaMenu li.dropdown:hover {

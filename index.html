@@ -891,7 +891,6 @@
         });
         $(".ATCustomer ").owlCarousel({
             items: 3,
-            nav: true,
             loop: true,
             margin: 10,
             autoplay: true,
@@ -899,7 +898,6 @@
             autoplayHoverPause: true,
             lazyLoad: true,
             dots: false,
-            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
             responsiveClass: true,
             responsive: {
                 0: {
@@ -913,8 +911,8 @@
                     loop: true
                 },
                 1000: {
-                    items: 2,
-                    nav: true,
+                    items: 3,
+                    nav: false,
                     loop: true
                 }
             }
