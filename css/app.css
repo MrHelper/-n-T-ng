@@ -248,6 +248,7 @@ h3 {
         padding: 10px;
         border: 1px solid #fff;
         font-weight: bolder;
+        max-height: 280px;
     }
 }
 @media (min-width: 992px) {
@@ -1227,23 +1228,48 @@ a.MSItem {
     width: 100%;
     height: auto;
 }
-
-span.discount {
-    position: absolute;
-    top: 30px;
-    right: 36px;
-    background: #000;
-    color: #fff;
-    padding: 2px 10px;
+@media (min-width: 920px) {
+    span.discount {
+        position: absolute;
+        top: 30px;
+        right: 36px;
+        background: #000;
+        color: #fff;
+        padding: 2px 10px;
+    }
+}
+@media (max-width: 920px) {
+    span.discount {
+        position: absolute;
+        top: 11px;
+        right: 25px;
+        background: #000;
+        color: #fff;
+        padding: 2px 6px;
+        font-size: 12px;
+    }
 }
 
-span.sphot {
-    position: absolute;
-    top: 30px;
-    right: 36px;
-    background: #c90000;
-    color: #fff;
-    padding: 2px 10px;
+@media (min-width: 920px) {
+    span.sphot {
+        position: absolute;
+        top: 30px;
+        right: 36px;
+        background: #c90000;
+        color: #fff;
+        padding: 2px 10px;
+    }
+}
+@media (max-width: 920px) {
+    span.sphot {
+        position: absolute;
+        top: 11px;
+        right: 25px;
+        background: #c90000;
+        color: #fff;
+        padding: 2px 6px;
+        font-size: 12px;
+    }
 }
 
 h3.CustName {
