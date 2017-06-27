@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ấn Tượng</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -42,19 +43,10 @@
             </div>
         </div>
     </div>
-
     <div class="container-fluid nav-background">
         <nav class="navbar navbar-default container zpadding" id="TopMenu">
             <div class="container">
-                <div class="navbar-header">
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse js-navbar-collapse">
+                <div class="js-navbar-collapse">
                     <ul class="nav navbar-nav MegaMenu">
                         <li class="dropdown mega-dropdown">
                             <a href="#" class="dropdown-toggle text-center" data-toggle="dropdown">
@@ -64,15 +56,25 @@
                             <ul class="dropdown-menu mega-dropdown-menu">
                                 <li class="col-sm-6" style="padding-right: 7px;">
                                     <ul>
-                                        <li><a href="#"><img src="images/sub_menu_01.png" class="width100" alt="Áo thun"></a></li>
-                                        <li><a href="#"><img src="images/sub_menu_03.png" class="width100" alt="Áo khoác"></a></li>
-                                        <li><a href="#"><img src="images/sub_menu_05.png" class="width100" alt="Áo len"></a></li>
+                                        <li>
+                                            <a href="#"><img src="images/sub_menu_01.png" class="width100" alt="Áo thun"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/sub_menu_03.png" class="width100" alt="Áo khoác"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/sub_menu_05.png" class="width100" alt="Áo len"></a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="col-sm-6" style="padding-left:7px;">
                                     <ul>
-                                        <li><a href="#"><img src="images/sub_menu_02.png" class="width100" alt="Áo sơ mi"></a></li>
-                                        <li><a href="#"><img src="images/sub_menu_04.png" class="width100" alt="Áo vest"></a></li>
+                                        <li>
+                                            <a href="#"><img src="images/sub_menu_02.png" class="width100" alt="Áo sơ mi"></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><img src="images/sub_menu_04.png" class="width100" alt="Áo vest"></a>
+                                        </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -254,7 +256,6 @@
             </div>
         </nav>
     </div>
-
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -276,28 +277,6 @@
                 <!-- Menu -->
                 <div class="side-menu">
                     <nav class="navbar" role="navigation">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <div class="brand-wrapper">
-                                <!-- Hamburger -->
-                                <button type="button" class="navbar-toggle">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <div id="search" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <form class="navbar-form" role="search">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Search">
-                                            </div>
-                                            <button type="submit" class="btn btn-default "><span class="glyphicon glyphicon-ok"></span></button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <!-- Main Menu -->
                         <div class="side-menu-container">
                             <ul class="nav navbar-nav">
@@ -335,7 +314,9 @@
                                 <li class="dropdown"><a href="#" class="sldlv0"> GIÀY DÉP NAM <span class="caret"></span></a></li>
                                 <li class="dropdown"><a href="#" class="sldlv0"> SET QUẦN ÁO <span class="caret"></span></a></li>
                                 <li class="dropdown"><a href="#" class="sldlv0"> PHỤ KIỆN <span class="caret"></span></a></li>
-                                <li class="licd"><hr class="smallicon"></li>
+                                <li class="licd">
+                                    <hr class="smallicon">
+                                </li>
                                 <li class="dropdown border-none" id="DanhMuc">
                                     <a class="sldlv0 bold">DANH MỤC </a>
                                     <!-- Dropdown level 1 -->
@@ -347,7 +328,9 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li class="licd"><hr class="smallicon"></li>
+                                <li class="licd">
+                                    <hr class="smallicon">
+                                </li>
                                 <li class="dropdown border-none" id="BoLoc">
                                     <a class="sldlv0 bold">BỘ LỌC</a>
                                     <p>KÍCH THƯỚC</p>
@@ -397,19 +380,32 @@
                 <!-- Main Content -->
                 <div class="container-fluid">
                     <div class="side-body">
+                        <nav class="navbar navbar-default" role="navigation">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="modal" data-target="#menuModal">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </nav>
                         <p class="bold headCatelog">ÁO NAM</p>
                         <div class="row">
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
                                 <select name="" id="input" class="form-control" required="required">
                                     <option value="">Sắp xếp theo</option>
                                 </select>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 text-center">
                                 <select name="" id="input" class="form-control" required="required">
                                     <option value="">Hiển thị</option>
                                 </select>
                             </div>
-                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="hidden-xs hidden-sm col-md-4 col-lg-4 text-center">
                                 <nav aria-label="Page navigation example">
                                     <ul class="pagination justify-content-end zmargin">
                                         <li class="page-item"><a class="page-link" href="#" tabindex="-2"><span class="fa fa-angle-double-left"></span></a></li>
@@ -424,7 +420,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_01.gif" alt="">
                                     <span class="discount">-30%</span>
@@ -432,7 +428,7 @@
                                         <h4> <strong>Áo nam</strong></h4>
                                         <h4>04002640138-03</h4>
                                         <h4 class="text-price"><strong>200.000 VNĐ</strong></h4>
-                                        <div class="btn-group">
+                                        <div class="btn-group hidden-xs hidden-sm">
                                             <button type="button" class="btn btn-default btn-slide btn-eye"><img src="images/symbol_19.png" alt=""></button>
                                             <button type="button" class="btn btn-default btn-slide btn-buy">Mua ngay</button>
                                             <button type="button" class="btn btn-default btn-slide btn-bag"><img src="images/symbol_18.png" alt=""></button>
@@ -440,7 +436,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_02.gif" alt="">
                                     <span class="sphot">HOT</span>
@@ -448,7 +444,7 @@
                                         <h4> <strong>Áo nam</strong></h4>
                                         <h4>04002640138-03</h4>
                                         <h4 class="text-price"><strong>200.000 VNĐ</strong></h4>
-                                        <div class="btn-group">
+                                        <div class="btn-group hidden-xs hidden-sm">
                                             <button type="button" class="btn btn-default btn-slide btn-eye"><img src="images/symbol_19.png" alt=""></button>
                                             <button type="button" class="btn btn-default btn-slide btn-buy">Mua ngay</button>
                                             <button type="button" class="btn btn-default btn-slide btn-bag"><img src="images/symbol_18.png" alt=""></button>
@@ -456,14 +452,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_03.gif" alt="">
                                     <div class="text-center">
                                         <h4> <strong>Áo nam</strong></h4>
                                         <h4>04002640138-03</h4>
                                         <h4 class="text-price"><strong>200.000 VNĐ</strong></h4>
-                                        <div class="btn-group">
+                                        <div class="btn-group hidden-xs hidden-sm">
                                             <button type="button" class="btn btn-default btn-slide btn-eye"><img src="images/symbol_19.png" alt=""></button>
                                             <button type="button" class="btn btn-default btn-slide btn-buy">Mua ngay</button>
                                             <button type="button" class="btn btn-default btn-slide btn-bag"><img src="images/symbol_18.png" alt=""></button>
@@ -471,7 +467,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_01.gif" alt="">
                                     <span class="discount">-30%</span>
@@ -479,7 +475,7 @@
                                         <h4> <strong>Áo nam</strong></h4>
                                         <h4>04002640138-03</h4>
                                         <h4 class="text-price"><strong>200.000 VNĐ</strong></h4>
-                                        <div class="btn-group">
+                                        <div class="btn-group hidden-xs hidden-sm">
                                             <button type="button" class="btn btn-default btn-slide btn-eye"><img src="images/symbol_19.png" alt=""></button>
                                             <button type="button" class="btn btn-default btn-slide btn-buy">Mua ngay</button>
                                             <button type="button" class="btn btn-default btn-slide btn-bag"><img src="images/symbol_18.png" alt=""></button>
@@ -487,7 +483,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_02.gif" alt="">
                                     <span class="sphot">HOT</span>
@@ -495,7 +491,7 @@
                                         <h4> <strong>Áo nam</strong></h4>
                                         <h4>04002640138-03</h4>
                                         <h4 class="text-price"><strong>200.000 VNĐ</strong></h4>
-                                        <div class="btn-group">
+                                        <div class="btn-group hidden-xs hidden-sm">
                                             <button type="button" class="btn btn-default btn-slide btn-eye"><img src="images/symbol_19.png" alt=""></button>
                                             <button type="button" class="btn btn-default btn-slide btn-buy">Mua ngay</button>
                                             <button type="button" class="btn btn-default btn-slide btn-bag"><img src="images/symbol_18.png" alt=""></button>
@@ -503,14 +499,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_03.gif" alt="">
                                     <div class="text-center">
                                         <h4> <strong>Áo nam</strong></h4>
                                         <h4>04002640138-03</h4>
                                         <h4 class="text-price"><strong>200.000 VNĐ</strong></h4>
-                                        <div class="btn-group">
+                                        <div class="btn-group hidden-xs hidden-sm">
                                             <button type="button" class="btn btn-default btn-slide btn-eye"><img src="images/symbol_19.png" alt=""></button>
                                             <button type="button" class="btn btn-default btn-slide btn-buy">Mua ngay</button>
                                             <button type="button" class="btn btn-default btn-slide btn-bag"><img src="images/symbol_18.png" alt=""></button>
@@ -518,7 +514,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_01.gif" alt="">
                                     <span class="discount">-30%</span>
@@ -526,7 +522,7 @@
                                         <h4> <strong>Áo nam</strong></h4>
                                         <h4>04002640138-03</h4>
                                         <h4 class="text-price"><strong>200.000 VNĐ</strong></h4>
-                                        <div class="btn-group">
+                                        <div class="btn-group hidden-xs hidden-sm">
                                             <button type="button" class="btn btn-default btn-slide btn-eye"><img src="images/symbol_19.png" alt=""></button>
                                             <button type="button" class="btn btn-default btn-slide btn-buy">Mua ngay</button>
                                             <button type="button" class="btn btn-default btn-slide btn-bag"><img src="images/symbol_18.png" alt=""></button>
@@ -534,7 +530,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_02.gif" alt="">
                                     <span class="sphot">HOT</span>
@@ -542,7 +538,7 @@
                                         <h4> <strong>Áo nam</strong></h4>
                                         <h4>04002640138-03</h4>
                                         <h4 class="text-price"><strong>200.000 VNĐ</strong></h4>
-                                        <div class="btn-group">
+                                        <div class="btn-group hidden-xs hidden-sm">
                                             <button type="button" class="btn btn-default btn-slide btn-eye"><img src="images/symbol_19.png" alt=""></button>
                                             <button type="button" class="btn btn-default btn-slide btn-buy">Mua ngay</button>
                                             <button type="button" class="btn btn-default btn-slide btn-bag"><img src="images/symbol_18.png" alt=""></button>
@@ -550,14 +546,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_03.gif" alt="">
                                     <div class="text-center">
                                         <h4> <strong>Áo nam</strong></h4>
                                         <h4>04002640138-03</h4>
                                         <h4 class="text-price"><strong>200.000 VNĐ</strong></h4>
-                                        <div class="btn-group">
+                                        <div class="btn-group hidden-xs hidden-sm">
                                             <button type="button" class="btn btn-default btn-slide btn-eye"><img src="images/symbol_19.png" alt=""></button>
                                             <button type="button" class="btn btn-default btn-slide btn-buy">Mua ngay</button>
                                             <button type="button" class="btn btn-default btn-slide btn-bag"><img src="images/symbol_18.png" alt=""></button>
@@ -565,7 +561,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_01.gif" alt="">
                                     <span class="discount">-30%</span>
@@ -573,7 +569,7 @@
                                         <h4> <strong>Áo nam</strong></h4>
                                         <h4>04002640138-03</h4>
                                         <h4 class="text-price"><strong>200.000 VNĐ</strong></h4>
-                                        <div class="btn-group">
+                                        <div class="btn-group hidden-xs hidden-sm">
                                             <button type="button" class="btn btn-default btn-slide btn-eye"><img src="images/symbol_19.png" alt=""></button>
                                             <button type="button" class="btn btn-default btn-slide btn-buy">Mua ngay</button>
                                             <button type="button" class="btn btn-default btn-slide btn-bag"><img src="images/symbol_18.png" alt=""></button>
@@ -581,7 +577,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_02.gif" alt="">
                                     <span class="sphot">HOT</span>
@@ -589,7 +585,7 @@
                                         <h4> <strong>Áo nam</strong></h4>
                                         <h4>04002640138-03</h4>
                                         <h4 class="text-price"><strong>200.000 VNĐ</strong></h4>
-                                        <div class="btn-group">
+                                        <div class="btn-group hidden-xs hidden-sm">
                                             <button type="button" class="btn btn-default btn-slide btn-eye"><img src="images/symbol_19.png" alt=""></button>
                                             <button type="button" class="btn btn-default btn-slide btn-buy">Mua ngay</button>
                                             <button type="button" class="btn btn-default btn-slide btn-bag"><img src="images/symbol_18.png" alt=""></button>
@@ -597,14 +593,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
                                 <div class="ATProduct">
                                     <img src="images/product_03.gif" alt="">
                                     <div class="text-center">
                                         <h4> <strong>Áo nam</strong></h4>
                                         <h4>04002640138-03</h4>
                                         <h4 class="text-price"><strong>200.000 VNĐ</strong></h4>
-                                        <div class="btn-group">
+                                        <div class="btn-group hidden-xs hidden-sm">
                                             <button type="button" class="btn btn-default btn-slide btn-eye"><img src="images/symbol_19.png" alt=""></button>
                                             <button type="button" class="btn btn-default btn-slide btn-buy">Mua ngay</button>
                                             <button type="button" class="btn btn-default btn-slide btn-bag"><img src="images/symbol_18.png" alt=""></button>
@@ -752,6 +748,206 @@
             </div>
         </div>
     </footer>
+    <!-- Modal -->
+    <div class="modal left fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Menu</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div style="height: 100vh;overflow-y: scroll;">
+                    
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">ÁO NAM <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Áo Thun <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Áo thun hàng quốc</a></li>
+                                        <li><a href="#">Áo thun nam cao cấp</a></li>
+                                        <li><a href="#">Áo thung thời trang</a></li>
+                                        <li><a href="#">Áo thung xì teen</a></li>
+                                        <li><a href="#">Áo thung body</a></li>
+                                        <li><a href="#">Áo thung lỗ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Áo Sơmi <span class="caret"></a></li>
+                                <li><a href="#">Áo Khoác <span class="caret"></a></li>
+                                <li><a href="#">Áo Vest <span class="caret"></a></li>
+                                <li><a href="#">Áo Len <span class="caret"></a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="#" class="sldlv0"> QUẦN NAM <span class="caret"></span></a></li>
+                        <li><a href="#" class="sldlv0"> GIÀY DÉP NAM <span class="caret"></span></a></li>
+                        <li><a href="#" class="sldlv0"> SET QUẦN ÁO <span class="caret"></span></a></li>
+                        <li><a href="#" class="sldlv0"> PHỤ KIỆN <span class="caret"></span></a></li>
+                        <li><a class="sldlv0 bold">DANH MỤC </a>
+                            <!-- Dropdown level 1 -->
+                            <div id="AoNamLV1" class="panel-collapse" style="padding:0px 10px;">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="#"><span class="fa fa-caret-right"></span> Mua nhiều </a></li>
+                                    <li><a href="#"><span class="fa fa-caret-right"></span> Khuyến mãi </a></li>
+                                    <li><a href="#"><span class="fa fa-caret-right"></span> Hàng mới về </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown border-none" id="BoLoc">
+                            <a class="sldlv0 bold">BỘ LỌC</a>
+                            <p style="padding: 0px 15px;">KÍCH THƯỚC</p>
+                            <ul class="BLKT" style="padding: 0px 10px;">
+                                <a href="#" class="KTItem"> 30 </a>
+                                <a href="#" class="KTItem"> 31 </a>
+                                <a href="#" class="KTItem"> 32 </a>
+                                <a href="#" class="KTItem Active"> 33 </a>
+                                <a href="#" class="KTItem"> 34 </a>
+                                <a href="#" class="KTItem"> 35 </a>
+                                <a href="#" class="KTItem"> 36 </a>
+                            </ul>
+                            <hr>
+                            <p style="padding:0px 15px;">MÀU SẮC</p>
+                            <ul class="BLMS" style="padding:0px 10px;">
+                                <a href="#" class="MSItem" style="background:#000"> </a>
+                                <a href="#" class="MSItem" style="background:#fff"> </a>
+                                <a href="#" class="MSItem" style="background:#c90000"> </a>
+                                <a href="#" class="MSItem" style="background:#690000"> </a>
+                                <a href="#" class="MSItem" style="background:#1cbff5"> </a>
+                                <a href="#" class="MSItem" style="background:#001375"> </a>
+                                <a href="#" class="MSItem" style="background:#4f9fe9"> </a>
+                                <a href="#" class="MSItem" style="background:#fff600"> </a>
+                                <a href="#" class="MSItem" style="background:#620090"> </a>
+                                <a href="#" class="MSItem" style="background:#b6b6b6"> </a>
+                                <a href="#" class="MSItem" style="background:#dab893"> </a>
+                                <a href="#" class="MSItem" style="background:#f8edc2"> </a>
+                                <a href="#" class="MSItem" style="background:#cf5bb0"> </a>
+                                <a href="#" class="MSItem" style="background:#000c47"> </a>
+                                <a href="#" class="MSItem" style="background:#005a00"> </a>
+                                <a href="#" class="MSItem" style="background:#57c3ca"> </a>
+                                <a href="#" class="MSItem" style="background:#bbbbbb"> </a>
+                                <a href="#" class="MSItem" style="background:#ec7b00"> </a>
+                                <a href="#" class="MSItem" style="background:#c38036"> </a>
+                                <a href="#" class="MSItem" style="background:#6b5338"> </a>
+                                <a href="#" class="MSItem" style="background:#375618"> </a>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div>
+                    <div class="side-menu">
+                        <nav class="navbar" role="navigation">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <!-- Main Menu -->
+                            <div class="side-menu-container">
+                                <ul class="nav navbar-nav">
+                                    <!-- Dropdown-->
+                                    <li class="panel panel-default dropdown">
+                                        <a data-toggle="collapse" href="#AoNamLV1" class="sldlv0">ÁO NAM <span class="caret"></span></a>
+                                        <!-- Dropdown level 1 -->
+                                        <div id="AoNamLV1" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                                <ul class="nav navbar-nav">
+                                                    <li class="panel panel-default dropdown">
+                                                        <a data-toggle="collapse" href="#AoNamLV2">Áo Thun <span class="caret"></a>
+                                                        <div id="AoNamLV2" class="panel-collapse collapse sliderlv2">
+                                                            <div class="panel-body">
+                                                                <ul class="nav navbar-nav">
+                                                                    <li><a href="#">Áo thun hàng quốc</a></li>
+                                                                    <li><a href="#">Áo thun nam cao cấp</a></li>
+                                                                    <li><a href="#">Áo thung thời trang</a></li>
+                                                                    <li><a href="#">Áo thung xì teen</a></li>
+                                                                    <li><a href="#">Áo thung body</a></li>
+                                                                    <li><a href="#">Áo thung lỗ</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li><a href="#">Áo Sơmi <span class="caret"></a></li>
+                                                    <li><a href="#">Áo Khoác <span class="caret"></a></li>
+                                                    <li><a href="#">Áo Vest <span class="caret"></a></li>
+                                                    <li><a href="#">Áo Len <span class="caret"></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown"><a href="#" class="sldlv0"> QUẦN NAM <span class="caret"></span></a></li>
+                                    <li class="dropdown"><a href="#" class="sldlv0"> GIÀY DÉP NAM <span class="caret"></span></a></li>
+                                    <li class="dropdown"><a href="#" class="sldlv0"> SET QUẦN ÁO <span class="caret"></span></a></li>
+                                    <li class="dropdown"><a href="#" class="sldlv0"> PHỤ KIỆN <span class="caret"></span></a></li>
+                                    <li class="licd">
+                                        <hr class="smallicon">
+                                    </li>
+                                    <li class="dropdown border-none" id="DanhMuc">
+                                        <a class="sldlv0 bold">DANH MỤC </a>
+                                        <!-- Dropdown level 1 -->
+                                        <div id="AoNamLV1" class="panel-collapse">
+                                            <ul class="nav navbar-nav">
+                                                <li><a href="#"><span class="fa fa-caret-right"></span> Mua nhiều </a></li>
+                                                <li><a href="#"><span class="fa fa-caret-right"></span> Khuyến mãi </a></li>
+                                                <li><a href="#"><span class="fa fa-caret-right"></span> Hàng mới về </a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="licd">
+                                        <hr class="smallicon">
+                                    </li>
+                                    <li class="dropdown border-none" id="BoLoc">
+                                        <a class="sldlv0 bold">BỘ LỌC</a>
+                                        <p>KÍCH THƯỚC</p>
+                                        <ul class="BLKT">
+                                            <a href="#" class="KTItem"> 30 </a>
+                                            <a href="#" class="KTItem"> 31 </a>
+                                            <a href="#" class="KTItem"> 32 </a>
+                                            <a href="#" class="KTItem Active"> 33 </a>
+                                            <a href="#" class="KTItem"> 34 </a>
+                                            <a href="#" class="KTItem"> 35 </a>
+                                            <a href="#" class="KTItem"> 36 </a>
+                                        </ul>
+                                        <hr>
+                                        <p>KHOẢNG GIÁ</p>
+                                        <input type="text" id="inputKG" name="inputKG" value="" />
+                                        <hr>
+                                        <p>MÀU SẮC</p>
+                                        <ul class="BLMS">
+                                            <a href="#" class="MSItem" style="background:#000"> </a>
+                                            <a href="#" class="MSItem" style="background:#fff"> </a>
+                                            <a href="#" class="MSItem" style="background:#c90000"> </a>
+                                            <a href="#" class="MSItem" style="background:#690000"> </a>
+                                            <a href="#" class="MSItem" style="background:#1cbff5"> </a>
+                                            <a href="#" class="MSItem" style="background:#001375"> </a>
+                                            <a href="#" class="MSItem" style="background:#4f9fe9"> </a>
+                                            <a href="#" class="MSItem" style="background:#fff600"> </a>
+                                            <a href="#" class="MSItem" style="background:#620090"> </a>
+                                            <a href="#" class="MSItem" style="background:#b6b6b6"> </a>
+                                            <a href="#" class="MSItem" style="background:#dab893"> </a>
+                                            <a href="#" class="MSItem" style="background:#f8edc2"> </a>
+                                            <a href="#" class="MSItem" style="background:#cf5bb0"> </a>
+                                            <a href="#" class="MSItem" style="background:#000c47"> </a>
+                                            <a href="#" class="MSItem" style="background:#005a00"> </a>
+                                            <a href="#" class="MSItem" style="background:#57c3ca"> </a>
+                                            <a href="#" class="MSItem" style="background:#bbbbbb"> </a>
+                                            <a href="#" class="MSItem" style="background:#ec7b00"> </a>
+                                            <a href="#" class="MSItem" style="background:#c38036"> </a>
+                                            <a href="#" class="MSItem" style="background:#6b5338"> </a>
+                                            <a href="#" class="MSItem" style="background:#375618"> </a>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- modal-content -->
+        </div>
+        <!-- modal-dialog -->
+    </div>
+    <!-- modal -->
     <div id="CallNow" class="hi-icon-effect-8">
         <i class="fa fa-comments-o hi-icon faa-float animated" id="Callicon"></i>
     </div>
@@ -765,6 +961,19 @@
     <script type="text/javascript " src="js/ion.rangeSlider.min.js "></script>
     <script type="text/javascript ">
     $(document).ready(function() {
+        $('.navbar a.dropdown-toggle').on('click', function(e) {
+            var $el = $(this);
+            var $parent = $(this).offsetParent(".dropdown-menu");
+            $(this).parent("li").toggleClass('open');
+
+            if(!$parent.parent().hasClass('nav')) {
+                $el.next().css({"top": $el[0].offsetTop, "left": $parent.outerWidth() - 4});
+            }
+
+            $('.nav li.open').not($(this).parents("li")).removeClass("open");
+
+            return false;
+        });
         $("#inputKG").ionRangeSlider({
             type: "double",
             min: 100000,
@@ -816,14 +1025,14 @@
             }, 600);
             return false;
         });
-        $("#TopMenu .dropdown").hover(            
+        $("#TopMenu .dropdown").hover(
             function() {
-                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideDown("400");
-                $(this).toggleClass('open');        
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideDown("400");
+                $(this).toggleClass('open');
             },
             function() {
-                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true,true).slideUp("400");
-                $(this).toggleClass('open');       
+                $('.dropdown-menu', this).not('.in .dropdown-menu').stop(true, true).slideUp("400");
+                $(this).toggleClass('open');
             }
         );
     });
