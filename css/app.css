@@ -248,7 +248,6 @@ h3 {
         padding: 10px;
         border: 1px solid #fff;
         font-weight: bolder;
-        max-height: 280px;
     }
 }
 @media (min-width: 992px) {
@@ -1295,9 +1294,17 @@ ul.BLKT {
     top: 0;
 }
 
-.slide-left {
-    margin-right: 270px;
+@media (min-width: 920px) {
+    .slide-left {
+        margin-right: 270px;
+    }
 }
+@media (max-width: 920px){
+    .slide-left {
+        margin-right: 0px;
+    }
+}
+
 
 .bold {
     font-weight: bold;
